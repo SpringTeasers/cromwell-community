@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Cromwell Community Site — Design Tokens
+   Source of truth: design/tokens-and-specs.md
+   All values are shipped specs, not placeholders.
+   ========================================================================== */
+
+:root {
+  /* ---- Colour: brand ---------------------------------------------------- */
+  --c-primary:        #0B5A73;  /* River Teal */
+  --c-primary-dark:   #07414F;
+  --c-primary-light:  #E6F1F4;
+  --c-secondary:      #1F6B3A;  /* Open Space Green */
+  --c-secondary-dark: #15502A;
+
+  /* ---- Colour: accent (caution / sample states ONLY) -------------------- */
+  --c-accent:         #B4531B;  /* Brick */
+  --c-accent-dark:    #8A3D12;
+  --c-accent-tint:    #FDEBE0;
+  --c-accent-tint-2:  #FDF3EC;
+  --c-accent-tint-3:  #F8E9DD;
+
+  /* ---- Colour: neutrals ------------------------------------------------- */
+  --c-ink:            #1A1D1F;
+  --c-ink-muted:      #5A6B72;
+  --c-surface:        #FFFFFF;
+  --c-surface-alt:    #F7F5F1;  /* paper */
+  --c-line:           #D6DEE2;
+  --c-focus:          #F2A900;  /* amber focus ring */
+
+  /* ---- Typography: families -------------------------------------------- */
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                  Roboto, Helvetica, Arial, sans-serif;
+
+  /* ---- Typography: scale (fluid) --------------------------------------- */
+  --t-h1:    clamp(1.875rem, 1.35rem + 2.6vw, 3rem);      /* 30 -> 48px */
+  --t-h2:    clamp(1.5rem, 1.2rem + 1.5vw, 2rem);         /* 24 -> 32px */
+  --t-h3:    1.4375rem;                                    /* 23px */
+  --t-h4:    1.1875rem;                                    /* 19px */
+  --t-body:  1.0625rem;                                    /* 17px */
+  --t-small: 0.9375rem;                                    /* 15px */
+  --t-meta:  0.8125rem;                                    /* 13px */
+
+  --lh-tight: 1.15;
+  --lh-snug:  1.3;
+  --lh-body:  1.6;
+  --lh-loose: 1.7;
+
+  /* ---- Spacing scale ---------------------------------------------------- */
+  --s-1: 0.25rem;   /*  4px */
+  --s-2: 0.5rem;    /*  8px */
+  --s-3: 0.75rem;   /* 12px */
+  --s-4: 1rem;      /* 16px */
+  --s-5: 1.5rem;    /* 24px */
+  --s-6: 2rem;      /* 32px */
+  --s-7: 3rem;      /* 48px */
+  --s-8: 4rem;      /* 64px */
+  --s-9: 6rem;      /* 96px */
+
+  /* ---- Layout ----------------------------------------------------------- */
+  --wrap:        72rem;    /* 1152px */
+  --wrap-narrow: 46rem;    /* 736px long-form measure */
+  --radius-sm:   2px;
+  --radius:      6px;
+  --radius-lg:   8px;
+  --shadow-drawer: 0 8px 32px rgba(0, 0, 0, 0.18);
+
+  /* ---- Motion ----------------------------------------------------------- */
+  --ease: cubic-bezier(0.2, 0, 0.2, 1);
+  --dur:  200ms;
+}
