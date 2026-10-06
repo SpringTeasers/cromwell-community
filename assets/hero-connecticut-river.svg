@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="title desc">
+  <title id="title">The Connecticut River at Cromwell, Connecticut</title>
+  <desc id="desc">An illustration of the Connecticut River at Cromwell: wooded riverbanks, open water, and the far ridge of the river valley under a wide sky.</desc>
+
+  <!-- Sky -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0B5A73"/>
+      <stop offset="55%"  stop-color="#2E7C90"/>
+      <stop offset="100%" stop-color="#8FB9C4"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0A4A5E"/>
+      <stop offset="100%" stop-color="#062F3D"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2C6B54"/>
+      <stop offset="100%" stop-color="#1B4C3B"/>
+    </linearGradient>
+    <linearGradient id="bank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#1F6B3A"/>
+      <stop offset="100%" stop-color="#12452A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- Sun haze -->
+  <circle cx="1180" cy="235" r="150" fill="#F2A900" opacity="0.10"/>
+  <circle cx="1180" cy="235" r="78"  fill="#F2A900" opacity="0.14"/>
+
+  <!-- Far ridge line of the Connecticut River valley -->
+  <path d="M0 430 L160 400 L300 424 L430 386 L560 414 L700 376 L840 408 L980 372 L1120 404 L1270 366 L1420 400 L1600 372 L1600 500 L0 500 Z"
+        fill="url(#ridge)" opacity="0.75"/>
+
+  <!-- Tree line along the near bank -->
+  <g fill="#164B39" opacity="0.92">
+    <path d="M0 505 q22 -46 46 0 q20 -40 44 0 q24 -50 50 0 q18 -36 42 0 q26 -46 52 0 q20 -40 44 0 q24 -48 50 0 q18 -34 42 0 q26 -44 52 0 q20 -38 44 0 q24 -46 50 0 q18 -36 42 0 q26 -48 52 0 q20 -40 44 0 q24 -44 50 0 q18 -34 42 0 q26 -46 52 0 q20 -38 44 0 q24 -48 50 0 q18 -36 42 0 q26 -44 52 0 q20 -40 44 0 q24 -46 50 0 q18 -34 42 0 q26 -48 52 0 q20 -38 44 0 q24 -44 50 0 q18 -36 42 0 q26 -46 52 0 q20 -40 44 0 L1600 560 L0 560 Z"/>
+  </g>
+
+  <!-- Water -->
+  <rect y="560" width="1600" height="340" fill="url(#water)"/>
+
+  <!-- Water glitter and current lines -->
+  <g stroke="#8FB9C4" stroke-linecap="round" opacity="0.22">
+    <path d="M60 620 h240" stroke-width="3"/>
+    <path d="M360 648 h180" stroke-width="2"/>
+    <path d="M600 612 h300" stroke-width="3"/>
+    <path d="M980 660 h220" stroke-width="2"/>
+    <path d="M1240 626 h260" stroke-width="3"/>
+    <path d="M180 700 h320" stroke-width="3"/>
+    <path d="M560 726 h260" stroke-width="2"/>
+    <path d="M900 706 h340" stroke-width="3"/>
+    <path d="M1300 740 h240" stroke-width="2"/>
+    <path d="M120 796 h380" stroke-width="3"/>
+    <path d="M580 820 h300" stroke-width="2"/>
+    <path d="M980 800 h360" stroke-width="3"/>
+    <path d="M1360 838 h220" stroke-width="2"/>
+  </g>
+
+  <!-- Near bank, bottom right -->
+  <path d="M1050 900 C1150 800 1300 760 1600 742 L1600 900 Z" fill="url(#bank)" opacity="0.95"/>
+</svg>
