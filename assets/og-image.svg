@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <title id="t">Cromwell, Connecticut — Community Guide</title>
+  <desc id="d">Social share image: the Connecticut River at Cromwell beneath the words Cromwell, Connecticut Community Guide and the 2020 Census population of 14,225.</desc>
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0B5A73"/>
+      <stop offset="60%"  stop-color="#2E7C90"/>
+      <stop offset="100%" stop-color="#8FB9C4"/>
+    </linearGradient>
+    <linearGradient id="water2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0A4A5E"/>
+      <stop offset="100%" stop-color="#062F3D"/>
+    </linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2C6B54"/>
+      <stop offset="100%" stop-color="#1B4C3B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky2)"/>
+  <circle cx="880" cy="170" r="110" fill="#F2A900" opacity="0.12"/>
+
+  <path d="M0 330 L140 306 L270 326 L400 296 L530 318 L660 288 L800 312 L930 284 L1060 306 L1200 282 L1200 380 L0 380 Z"
+        fill="url(#ridge2)" opacity="0.8"/>
+
+  <g fill="#164B39" opacity="0.92">
+    <path d="M0 386 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 q18 -36 40 0 q14 -28 34 0 q18 -34 38 0 q16 -30 36 0 L1200 430 L0 430 Z"/>
+  </g>
+
+  <rect y="430" width="1200" height="200" fill="url(#water2)"/>
+  <g stroke="#8FB9C4" stroke-linecap="round" opacity="0.22">
+    <path d="M60 470 h170" stroke-width="3"/>
+    <path d="M300 496 h130" stroke-width="2"/>
+    <path d="M520 466 h210" stroke-width="3"/>
+    <path d="M800 500 h150" stroke-width="2"/>
+    <path d="M980 476 h160" stroke-width="3"/>
+    <path d="M120 552 h220" stroke-width="3"/>
+    <path d="M430 578 h180" stroke-width="2"/>
+    <path d="M700 560 h240" stroke-width="3"/>
+    <path d="M1010 588 h140" stroke-width="2"/>
+  </g>
+
+  <!-- Text panel -->
+  <rect x="0" y="0" width="1200" height="630" fill="#07414F" opacity="0.42"/>
+
+  <text x="80" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" fill="#FFFFFF">Cromwell,</text>
+  <text x="80" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" fill="#FFFFFF">Connecticut</text>
+  <text x="82" y="386" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#CFE3E9">COMMUNITY GUIDE</text>
+
+  <rect x="80" y="430" width="90" height="4" fill="#F2A900"/>
+
+  <text x="80" y="500" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">A river town in Middlesex County — 14,225 residents</text>
+  <text x="80" y="540" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#FFFFFF">(2020 U.S. Census), settled 1651, incorporated 1851.</text>
+</svg>
